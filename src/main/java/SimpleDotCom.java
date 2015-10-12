@@ -1,4 +1,4 @@
-public class SimpleDotCom {
+public class SimpleDotCom extends DotCom {
     int[] locationCells;
     int numOfHits = 0;
 
@@ -26,4 +26,7 @@ public class SimpleDotCom {
         return result;
     }
 
+    public String getName(String name) {
+        return "my name is " + super.getName() + " not " + name;
+    }
 }
