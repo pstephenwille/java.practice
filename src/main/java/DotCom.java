@@ -2,6 +2,7 @@ import java.io.Serializable;
 
 public class DotCom implements Serializable {
 
+
     public String getName() {
         return name;
     }
