@@ -1,8 +1,16 @@
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class BookTreeComparator {
     public static void main(String[] args) {
         new BookTreeComparator().go();
+        Pattern p = Pattern.compile("\\d");
+        Matcher m = p.matcher("abc123");
+        Boolean b = m.matches();
+        System.out.println();
+        String str = "str";
+
     }
 
     private void go() {
@@ -28,4 +36,5 @@ public class BookTreeComparator {
         }
     }
 }
+
 
